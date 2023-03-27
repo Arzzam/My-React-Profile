@@ -1,6 +1,6 @@
 import React from "react";
-import { Profile } from "./Profile";
-import ProfileDetails from "./ProfileDetails";
+import { Profile } from "../components/Left Section/Profile";
+import ProfileDetails from "../components/Left Section/ProfileDetails";
 
 const Left = () => {
   return (
