@@ -1,7 +1,7 @@
 import React from "react";
 // import Project1 from "../Content/Projects";
 import Content from "../../contents/Content";
-import DATA from "../../contents/Data";
+import DATA from "../../data/Data";
 
 const Projects = () => {
   return (
@@ -12,7 +12,9 @@ const Projects = () => {
           return (
             <>
               <div className="project-item" key={data.projectId}>
-                <div className="font-bold project-title">{data.title}</div>
+                <a href={data.link} className="font-bold project-title">
+                  {data.title}
+                </a>
                 <p className="mx-0 mt-0 mb-3 text-base project-desc">
                   {data.description}
                 </p>
