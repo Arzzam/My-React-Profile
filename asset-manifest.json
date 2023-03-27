@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/My-React-Profile/static/css/main.5b396d75.css",
+    "main.js": "/My-React-Profile/static/js/main.fadba826.js",
+    "static/media/profile.png": "/My-React-Profile/static/media/profile.ea65e236200e315c159d.png",
+    "index.html": "/My-React-Profile/index.html",
+    "main.5b396d75.css.map": "/My-React-Profile/static/css/main.5b396d75.css.map",
+    "main.fadba826.js.map": "/My-React-Profile/static/js/main.fadba826.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b396d75.css",
+    "static/js/main.fadba826.js"
+  ]
+}
