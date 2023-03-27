@@ -13,13 +13,13 @@ const Skills = () => {
         <div className="mb-2 skill-category">
           <strong className="text-base font-bold uppercase last-of-type:mb-0">Libraries & Frameworks: </strong>
           <span>
-            React, jQuery, Node(Beginner), Bootstrap, Tailwind CSS, Material UI, Styled Components
+            React, jQuery, NodeJS, Bootstrap, Tailwind CSS, Material UI, Styled Components
           </span>
         </div>
         <div className="mb-2 skill-category">
           <strong className="text-base font-bold uppercase last-of-type:mb-0">Tools: </strong>
           <span>
-            Git, Github, Photoshop, Illustrator, Canva, InDesign(Beginner)
+            Git, Github, Photoshop, Illustrator, Canva, Figma(Beginner)
           </span>
         </div>
       </Content>

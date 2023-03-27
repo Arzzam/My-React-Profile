@@ -42,7 +42,7 @@ const DATA = [
     point1:
       "It allows users to give data and track expenditures and store data in local storage.",
     point2:
-      "Responsive UI and Expenses are represented in Graphical Bars to identify expensesover a month.",
+      "Responsive UI and Expenses are represented in Graphical Bars to identify expenses over a month.",
     point3: "Well-organized components and Deployed in GitHub Pages.",
   },
   {
@@ -60,7 +60,7 @@ const DATA = [
     description:
       "A web game built with React having a responsive User Interface.",
     point1:
-      "A game that can play on a single device of two players that displays the player'smovements.",
+      "A game that can play on a single device of two players that displays the player's movements.",
     point2: "The states are managed by useReducer and useContext hooks.",
     point3: "Deployed on GitHub pages.",
   },

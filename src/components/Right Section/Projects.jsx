@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 // import Project1 from "../Content/Projects";
 import Content from "../../contents/Content";
 import DATA from "../../data/Data";
