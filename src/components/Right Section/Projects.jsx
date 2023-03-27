@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 // import Project1 from "../Content/Projects";
 import Content from "../../contents/Content";
 import DATA from "../../data/Data";
@@ -10,9 +10,12 @@ const Projects = () => {
       <Content>
         {DATA.map((data) => {
           return (
-            <>
+            <div>
               <div className="project-item" key={data.projectId}>
-                <a href={data.link} className="font-bold project-title">
+                <a
+                  href={data.link ? data.link : null}
+                  className="font-bold project-title"
+                >
                   {data.title}
                 </a>
                 <p className="mx-0 mt-0 mb-3 text-base project-desc">
@@ -22,13 +25,21 @@ const Projects = () => {
               <div className="">
                 <ul className="p-0 m-0">
                   <li className="ml-5 text-sm list-disc">{data.point1}</li>
-                  <li className="ml-5 text-sm list-disc">{data.point2}</li>
-                  <li className="ml-5 text-sm list-disc mb-10">
-                    {data.point3}
+                  <li
+                    className={`${
+                      !data.point3 ? "mb-8" : null
+                    } ml-5 text-sm list-disc`}
+                  >
+                    {data.point2}
                   </li>
+                  {data.point3 ? (
+                    <li className="ml-5 text-sm list-disc mb-8">
+                      {data.point3}
+                    </li>
+                  ) : null}
                 </ul>
               </div>
-            </>
+            </div>
           );
         })}
       </Content>

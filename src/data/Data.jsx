@@ -2,7 +2,6 @@ const DATA = [
   {
     projectId: 1,
     title: "AuCalc",
-    link: "/",
     description: "A GPA and CGPA Calculator for Anna University",
     point1:
       "A web app that helps to calculate GPA and CGPA for Anna University students.",
@@ -48,6 +47,14 @@ const DATA = [
   },
   {
     projectId: 5,
+    title: "Movie Land",
+    link: "https://github.com/Arzzam/movie-land",
+    description: "An API based website to search movies",
+    point1: "This website is used to search for movies and display the result.",
+    point2: "Using Axios the API are fetch and rendered in the browser",
+  },
+  {
+    projectId: 6,
     title: "Tic-Tac-Toe",
     link: "https://github.com/Arzzam/tic-tac-toe",
     description:
@@ -56,6 +63,15 @@ const DATA = [
       "A game that can play on a single device of two players that displays the player'smovements.",
     point2: "The states are managed by useReducer and useContext hooks.",
     point3: "Deployed on GitHub pages.",
+  },
+  {
+    projectId: 7,
+    title: "Keeper App",
+    link: "https://github.com/Arzzam/keeper-app",
+    description: "A Front-End Keeper App build with React and Material UI.",
+    point1: "Responsive site with nice-looking UI and Animations.",
+    point2:
+      "Having functionalities of adding, deleting notes, and storing data in local storage.",
   },
 ];
 
