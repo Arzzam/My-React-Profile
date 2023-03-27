@@ -1,17 +1,16 @@
 import React from "react";
 import Content from "../../contents/Content";
 
-
 const Experience = () => {
   return (
     <div className="text-base experience">
       <h4 className="w-24 sm:w-full">Experience</h4>
       <Content>
         <div className="m-0">
-          <span className="text-base font-bold title">
+          <span className="text-base font-bold title sm:text-sm">
             Full stack Developer - Intern
           </span>
-          <span className="text-sm font-medium float-right text-light">
+          <span className="text-sm font-medium float-right text-light md:text-xs">
             March 2023 - Present
           </span>
         </div>
@@ -26,15 +25,15 @@ const Experience = () => {
           <ul className="p-0 m-0">
             <li className="ml-5 text-sm list-disc">
               Developing and maintaining in-house website primarily using
-              JavaScript, React, TailwindCSS and Node.
+              JavaScript, React,Tailwind CSS and Node.
             </li>
             <li className="ml-5 text-sm list-disc">
-              Working with 2 project and design team to innovate existing and
-              new experiences.
+              Working in 2 projects and with the design team to innovate new
+              user experiences.
             </li>
             <li className="ml-5 text-sm list-disc">
-              Collaborating with 2 interns and 2 developers to determine design,
-              app interaction, and enhancement.
+              Collaborating with the team to establish design, app interaction
+              and enhancement.
             </li>
           </ul>
         </div>
