@@ -51,7 +51,7 @@ const DATA = [
     link: "https://github.com/Arzzam/movie-land",
     description: "An API based website to search movies",
     point1: "This website is used to search for movies and display the result.",
-    point2: "Using Axios the API are fetch and rendered in the browser.",
+    point2: "Using Axios, the API data sare fetch and rendered in the browser.",
   },
   {
     projectId: 6,

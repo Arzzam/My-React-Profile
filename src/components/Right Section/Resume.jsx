@@ -4,7 +4,7 @@ import ResumePdf from "../../assets/Resume.pdf";
 const Resume = () => {
   return (
     <a
-      className="block w-full max-w-lg px-0 py-4 mx-auto my-0 text-center transition-all ease-in-out delay-300 bg-gray-200 rounded-lg resume hover:bg-zinc-300"
+      className="block w-full max-w-lg px-0 py-4 mx-auto my-0 text-center transition-all ease-in-out delay-2s00 bg-gray-200 rounded-lg resume hover:bg-zinc-300"
       href={ResumePdf}
       target="_blank"
       rel="noreferrer"
