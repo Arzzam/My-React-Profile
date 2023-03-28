@@ -2,7 +2,7 @@ const DATA = [
   {
     projectId: 1,
     title: "AuCalc",
-    description: "A GPA and CGPA Calculator for Anna University",
+    description: "A GPA and CGPA Calculator for Anna University.",
     point1:
       "A web app that helps to calculate GPA and CGPA for Anna University students.",
     point2: "Mainly focus on Easy User Flow to make great User Experience.",
@@ -12,8 +12,8 @@ const DATA = [
   {
     projectId: 2,
     title: "Personal Portfolio Website",
-    link: "/",
-    description: "A Web version of my Resume",
+    link: "/My-React-Profile/",
+    description: "A Web version of my Resume.",
     point1:
       "A Personal Website that shows my professional skills,accomplishments, and experiences.",
     point2:
@@ -26,7 +26,7 @@ const DATA = [
     title: "React Food-Cart",
     link: "https://github.com/Arzzam/food-ordering-app",
     description:
-      "A Food Cart Application built with React Styled Components Library",
+      "A Food Cart Application built with React Styled Components Library.",
     point1:
       "Responsivesite with the functionalities to add, edit, and remove items to the cart.",
     point2:
@@ -51,7 +51,7 @@ const DATA = [
     link: "https://github.com/Arzzam/movie-land",
     description: "An API based website to search movies",
     point1: "This website is used to search for movies and display the result.",
-    point2: "Using Axios the API are fetch and rendered in the browser",
+    point2: "Using Axios the API are fetch and rendered in the browser.",
   },
   {
     projectId: 6,

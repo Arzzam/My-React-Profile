@@ -3,7 +3,7 @@ import Education from "../components/Right Section/Education";
 import Experience from "../components/Right Section/Experience";
 import Intro from "../components/Right Section/Intro";
 import Projects from "../components/Right Section/Projects";
-// import Resume from "./Resume";
+import Resume from "../components/Right Section/Resume";
 import Skills from "../components/Right Section/Skills";
 
 const Right = () => {
@@ -18,7 +18,7 @@ const Right = () => {
         <Education />
         <Experience />
         <Projects />
-        {/* <Resume /> */}
+        <Resume />
       </div>
     </div>
   );

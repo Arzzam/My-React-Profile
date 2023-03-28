@@ -14,6 +14,8 @@ const Projects = () => {
               <div className="project-item" key={data.projectId}>
                 <a
                   href={data.link ? data.link : null}
+                  rel="noreferrer noopener"
+                  target="_blank"
                   className="font-bold project-title"
                 >
                   {data.title}
