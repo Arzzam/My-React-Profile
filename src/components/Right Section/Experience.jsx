@@ -15,7 +15,12 @@ const Experience = () => {
           </span>
         </div>
         <div className="mb-2 italic company">
-          <a href="https://www.xbi4.com/" className="font-bold">
+          <a
+            href="https://www.xbi4.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="font-bold"
+          >
             XBI4
           </a>
           <br />

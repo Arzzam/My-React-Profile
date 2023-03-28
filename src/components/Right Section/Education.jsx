@@ -6,11 +6,13 @@ const Education = () => {
     <div className="text-base education">
       <h4 className="w-24 sm:w-full">Education</h4>
       <Content>
-        <div className="text-base font-bold university">
-            Anna University
-        </div>
+        <div className="text-base font-bold university">Anna University</div>
         <div className="mb-2 italic font-bold college">
-          <a href="https://scadengineering.ac.in/">
+          <a
+            href="https://scadengineering.ac.in/"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
             SCAD College of Engineering and Technology
           </a>
           <br />
@@ -25,8 +27,8 @@ const Education = () => {
           Semester)
         </div>
         <div className="text-base grad-date">
-          <strong className="font-semibold">Expected Graduation:</strong> 
-          <span>May 2023</span>
+          <strong className="font-semibold">Expected Graduation:</strong>
+          <span> May 2023</span>
         </div>
       </Content>
     </div>
